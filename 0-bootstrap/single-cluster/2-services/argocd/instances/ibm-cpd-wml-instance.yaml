@@ -1,18 +1,21 @@
-apiVersion: wml.cpd.ibm.com/v1beta1
-kind: WmlBase
+apiVersion: argoproj.io/v1alpha1
+kind: Application
 metadata:
-  name: wml-cr
-  namespace: tools
+  name: ibm-cpd-wml-instance
+  annotations:
+    argocd.argoproj.io/sync-wave: "270"
   labels:
-    app.kubernetes.io/instance: wml-cr
-    app.kubernetes.io/managed-by: ibm-cpd-wml-operator
-    app.kubernetes.io/name: ibm-cpd-wml-operator
+    gitops.tier.group: ibm-cloudpak
+    gitops.tier.layer: services
+    gitops.tier.source: git
 spec:
-  ignoreForMaintenance: false
-  scaleConfig: small
-  license:
-    accept: true
-    license: Enterprise
-  version: 4.0.9
-  storageVendor: ""
-  storageClass: managed-nfs-storage
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+  destination:
+    namespace: tools
+    server: https://kubernetes.default.svc
+  project: services
+  source:
+    path: instances/wml-instance
