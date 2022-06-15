@@ -33,8 +33,6 @@ spec:
         value: 4.0.9
       - name: spec.storageClass
         value: managed-nfs-storage
-      - name: spec.ignoreForMaintenance
-        value: false
       - name: spec.scaleConfig
         value: small
       - name: spec.storageVendor
