@@ -29,9 +29,9 @@ spec:
           replicaCount: 1
           serviceName: db2
           serviceAccount: db2
-          image:
-            repository: quay.io/hollisc/ibm-db2-sfg:1.0.4
-            pullPolicy: IfNotPresent
+#          image:
+#            repository: quay.io/hollisc/ibm-db2-sfg:1.0.4
+#            pullPolicy: IfNotPresent
           storageClassName: managed-nfs-storage
           #storageClassName: ocs-storagecluster-cephfs
 
