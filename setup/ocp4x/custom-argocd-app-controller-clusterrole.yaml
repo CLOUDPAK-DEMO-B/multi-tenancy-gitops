@@ -396,4 +396,10 @@ rules:
       - wml.cpd.ibm.com
     resources:
       - wmlbases
+  - verbs:
+      - '*'
+    apiGroups:
+      - databases.cpd.ibm.com
+    resources:
+      - db2oltpservices
 
