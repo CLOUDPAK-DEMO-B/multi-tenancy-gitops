@@ -45,6 +45,8 @@ resources:
 # custom db2 operators
 - argocd/operators/ibm-cpd-db2oltp-operator.yaml
 - argocd/instances/ibm-cpd-db2oltp-instance.yaml
+# custom DMC
+- argocd/operators/ibm-cpd-dmc-operator.yaml
 
 ## Cloud Pak for Security
 #- argocd/operators/ibm-cp4s-operator.yaml
