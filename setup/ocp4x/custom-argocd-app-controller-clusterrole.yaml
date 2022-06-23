@@ -402,4 +402,9 @@ rules:
       - databases.cpd.ibm.com
     resources:
       - db2oltpservices
-
+  - verbs:
+      - '*'
+    apiGroups:
+      - dmc.databases.ibm.com
+    resources:
+      - dmcaddons
