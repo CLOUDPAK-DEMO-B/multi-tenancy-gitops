@@ -408,3 +408,10 @@ rules:
       - dmc.databases.ibm.com
     resources:
       - dmcaddons
+  - verbs:
+      - '*'
+    apiGroups:
+      - ca.cpd.ibm.com
+    resources:
+      - caservices
+
