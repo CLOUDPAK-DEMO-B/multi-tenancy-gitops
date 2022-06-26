@@ -48,7 +48,7 @@ resources:
 
 # custom DMC
 - argocd/operators/ibm-cpd-dmc-operator.yaml
-- argocd/instances/ibm-cpd-dmc-instance.yaml
+#- argocd/instances/ibm-cpd-dmc-instance.yaml
 
 ## Cloud Pak for Security
 #- argocd/operators/ibm-cp4s-operator.yaml
