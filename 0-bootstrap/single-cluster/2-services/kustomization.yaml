@@ -52,7 +52,7 @@ resources:
 
 # custom Cognos Analytics
 - argocd/operators/ibm-cpd-ca-operator.yaml
-- argocd/instances/ibm-cpd-ca-instance.yaml
+#- argocd/instances/ibm-cpd-ca-instance.yaml
 
 ## Cloud Pak for Security
 #- argocd/operators/ibm-cp4s-operator.yaml
