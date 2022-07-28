@@ -31,9 +31,9 @@ resources:
 - argocd/instances/ibm-cpd-instance.yaml
 
 # Watson Studio
-#- argocd/operators/ibm-cpd-ws-operator.yaml
+- argocd/operators/ibm-cpd-ws-operator.yaml
 #- argocd/operators/ibm-cpd-wos-operator.yaml
-#- argocd/instances/ibm-cpd-ws-instance.yaml
+- argocd/instances/ibm-cpd-ws-instance.yaml
 #- argocd/instances/ibm-cpd-wos-instance.yaml
 
 #- argocd/operators/ibm-cpd-wkc-operator.yaml
@@ -44,9 +44,10 @@ resources:
 #- argocd/instances/ibm-cpd-ds-instance.yaml
 #- argocd/operators/ibm-cpd-aespark-operator.yaml
 #- argocd/instances/ibm-cpd-aespark-instance.yaml
-#WML
-#- argocd/operators/ibm-cpd-wml-operator.yaml
-#- argocd/instances/ibm-cpd-wml-instance.yaml
+
+# WML
+- argocd/operators/ibm-cpd-wml-operator.yaml
+- argocd/instances/ibm-cpd-wml-instance.yaml
 
 # custom db2 operators
 #- argocd/operators/ibm-cpd-db2oltp-operator.yaml
