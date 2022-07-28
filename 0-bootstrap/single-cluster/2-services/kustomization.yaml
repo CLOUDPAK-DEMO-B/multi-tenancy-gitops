@@ -29,29 +29,35 @@ resources:
 #- argocd/instances/ibm-cpd-scheduling-instance.yaml
 - argocd/operators/ibm-cpd-platform-operator.yaml
 - argocd/instances/ibm-cpd-instance.yaml
-- argocd/operators/ibm-cpd-ws-operator.yaml
+
+# Watson Studio
+#- argocd/operators/ibm-cpd-ws-operator.yaml
 #- argocd/operators/ibm-cpd-wos-operator.yaml
-- argocd/instances/ibm-cpd-ws-instance.yaml
+#- argocd/instances/ibm-cpd-ws-instance.yaml
 #- argocd/instances/ibm-cpd-wos-instance.yaml
-- argocd/operators/ibm-cpd-wkc-operator.yaml
-- argocd/instances/ibm-cpd-wkc-instance.yaml
-- argocd/operators/ibm-cpd-ds-operator.yaml
-- argocd/instances/ibm-cpd-ds-instance.yaml
+
+#- argocd/operators/ibm-cpd-wkc-operator.yaml
+#- argocd/instances/ibm-cpd-wkc-instance.yaml
+
+# Datastage
+#- argocd/operators/ibm-cpd-ds-operator.yaml
+#- argocd/instances/ibm-cpd-ds-instance.yaml
 #- argocd/operators/ibm-cpd-aespark-operator.yaml
 #- argocd/instances/ibm-cpd-aespark-instance.yaml
-- argocd/operators/ibm-cpd-wml-operator.yaml
-- argocd/instances/ibm-cpd-wml-instance.yaml
+#WML
+#- argocd/operators/ibm-cpd-wml-operator.yaml
+#- argocd/instances/ibm-cpd-wml-instance.yaml
 
 # custom db2 operators
-- argocd/operators/ibm-cpd-db2oltp-operator.yaml
-- argocd/instances/ibm-cpd-db2oltp-instance.yaml
+#- argocd/operators/ibm-cpd-db2oltp-operator.yaml
+#- argocd/instances/ibm-cpd-db2oltp-instance.yaml
 
 # custom DMC
-- argocd/operators/ibm-cpd-dmc-operator.yaml
+#- argocd/operators/ibm-cpd-dmc-operator.yaml
 #- argocd/instances/ibm-cpd-dmc-instance.yaml
 
 # custom Cognos Analytics
-- argocd/operators/ibm-cpd-ca-operator.yaml
+#- argocd/operators/ibm-cpd-ca-operator.yaml
 #- argocd/instances/ibm-cpd-ca-instance.yaml
 
 ## Cloud Pak for Security
