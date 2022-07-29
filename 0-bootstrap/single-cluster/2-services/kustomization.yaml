@@ -36,13 +36,14 @@ resources:
 - argocd/instances/ibm-cpd-ws-instance.yaml
 #- argocd/instances/ibm-cpd-wos-instance.yaml
 
-#WKS 
+# WKS 
 - argocd/operators/ibm-cpd-wkc-operator.yaml
 - argocd/instances/ibm-cpd-wkc-instance.yaml
 
 # Datastage
-#- argocd/operators/ibm-cpd-ds-operator.yaml
-#- argocd/instances/ibm-cpd-ds-instance.yaml
+- argocd/operators/ibm-cpd-ds-operator.yaml
+- argocd/instances/ibm-cpd-ds-instance.yaml
+
 #- argocd/operators/ibm-cpd-aespark-operator.yaml
 #- argocd/instances/ibm-cpd-aespark-instance.yaml
 
